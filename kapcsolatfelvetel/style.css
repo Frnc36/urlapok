@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #5AB4C2;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    color: #1C4632;
+}
+
+header p{
+    color: #5AB4C2;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 30%;
+    margin: auto auto;
+    border-radius: 10px;
+}
+
+div{
+    margin-bottom: 10%;
+    
+}
+
+div label{
+    display: block;
+    font-weight: bold;
+    color: #5AB4C2;
+}
+
+input, textarea{
+    width: 100%;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+}
+
+button{
+    background-color: #E390A6;
+    color: white;
+    padding: 10px 15px 10px 15px;
+    border: none;   
+    align-self: center;
+    margin-bottom: 10px;
+}

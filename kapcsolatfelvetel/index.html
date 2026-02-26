@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mágori Ferenc Ferdinánd</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Kapcsolatfelvétel</h1>
+            <p>ezt a szöveget is könnyen átírod</p>
+        </header>
+
+        <form action="feldolgoz.php" method="post">
+            <div>
+                <label for="vnev">Név</label>
+                <br>
+                <input type="text" id="vnev" name="vnev" required pattern="[A-Za-z0-9]{10}">
+            </div>
+
+            <div>
+                <label for="email">E-mail</label>
+                <br>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div>
+                <label for="">Üzenet</label>
+                <br>
+                <textarea id="uzenet" name="uzenet" placeholder="Kezdj el írni" rows="5"></textarea>
+            </div>
+
+            <button type="submit">Elküld</button>
+
+        </form>
+    </main>
+</body>
+</html>
