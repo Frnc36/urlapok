@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mágori Ferenc Ferdinánd</title>
 </head>
 <body>
     <main>
         <header>
             <h1>Bejentkezés</h1>
         </header>
-        <form action="">
+        <form action="" method="post">
             <div>
                 <label for="">Kártyaszám</label>
                 <input type="text">
@@ -19,17 +20,17 @@
 
             <div>
                 <label for="">Jelszó</label>
-                <input type="password">
+                <input type="password" id="jelszo">
             </div>
 
             <div>
                 <p>Elfelejtette jelszavát!</p>
             </div>
             
-            <button type="submit">Belépés</button>
-
-            <a href="regisztracio.html">Még nincs fiókom, regisztrálok</a>
-
+            <div class="gombok">
+                <button type="submit">Belépés</button>
+                <a href="regisztracio.html">Még nincs fiókom, regisztrálok</a>
+            </div>
         </form>
     </main>
 </body>

@@ -1,1 +1,100 @@
-/* #00205B #F5F6FF */
+/* Sáv háttér színe: rgb(232, 240, 254) */
+/* Belépés gomb háttér színe: rgb(0, 32, 91) */
+/* Betűszín: rgb(11, 42, 98) */
+/* Még nincs fiókom háttérszín: rgb(245, 246, 255) */
+
+*{
+    box-sizing: border-box;
+    color: rgb(11, 42, 98);
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+
+body{
+    background-color: rgb(245, 246, 255);
+    background-color: rgb(219, 220, 230);
+}
+
+main{
+    width: 20%;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+header{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div{
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+div *{
+    margin: 1%;
+}
+
+p{
+    font-size: small;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 5% 5% 0% 5%;
+}
+
+input{
+    width: 100%;
+    background-color: rgb(232, 240, 254);
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+}
+
+button{
+    background-color: rgb(0, 32, 91);
+    color: white;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    background-color: rgb(245, 246, 255);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;   
+}
+
+
+.gombok{
+    display: flex;
+    flex-direction: column;
+}
+
+.gombok a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.red-star{
+    color: red;
+}
+
+#szoveg{
+    background-color: rgb(222, 231, 255);
+    border-radius: 5px;
+    padding: 4%;
+    margin-top: 5%;
+}
